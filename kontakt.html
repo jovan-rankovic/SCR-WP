@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+	
+		<title>Kontakt | SC Ranković</title>
+		<link rel="shortcut icon" href="slike/scr.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/scr.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Dosis:500" rel="stylesheet">
+		<meta charset="UTF-8"/>
+		<meta name="keywords" content="SC Ranković, Sportski centar Ranković, kontakt, Bulevar kralja Aleksandra 443a, Beograd, scrankovic@hotmail.com, 065/37-37-655, BodyVive, BodyCombat, BodyAttack"/>
+		<meta name="description" content="Kontakt SC Ranković"/>
+		<meta name="copyright" content="SC Ranković, Ranković Jovan"/>
+		<meta name="author" content="Ranković Jovan"/>
+	
+	</head>
+	
+	<body>
+	
+		<div align="center">
+		
+			<div id="omot">
+				<div id="searchDiv">
+					<div id="Stitle" class="sLeft"></div>
+					<div id="Stext" class="sLeft"></div>
+					<div id="Sdetaljnije" class="sLeft"><a href="#"></a></div>
+				</div>
+				<div class="cistacica"></div>
+
+				<header>
+				
+					<div id="zaglavlje">
+					
+						<a href="index.html"><img src="slike/scr.png" alt="Logo SC Ranković" id="logo"/></a>
+						
+						<nav id="gore">
+							<ul>
+								<li><a href="index.html">Početna</a></li>
+								<li><a href="autor.html">O nama</a></li>
+                                <li>
+                                	<a href="#">Programi</a>
+									<ul>
+										<li><a href="bodyvive.html">BodyVive&trade;</a></li>
+										<li><a href="bodycombat.html">BodyCombat&trade;</a></li>
+										<li><a href="bodyattack.html">BodyAttack&trade;</a></li>
+									</ul>
+                                </li>
+								<li><a href="raspored.html">Raspored</a></li>
+								<li><a href="galerija.html">Galerija</a></li>
+								<li><a href="kontakt.html">Kontakt</a></li>
+							</ul>
+						</nav>
+						
+						<div id="pretraga">
+						
+							<form method="get" onSubmit="return false">
+								<input type="search" name="search" id="search" placeholder="Pretraga..."/>
+							</form>
+						</div>
+						
+					</div>
+					
+				</header>
+				
+				<div class="cistacica"></div>
+				
+				<div id="omot2">
+				
+					<section id="kontakt">
+					
+						<article id="clan">
+						
+							<h3 class="kontaktZaglavlje">POSTANITE NAŠ ČLAN!</h3>
+							<br/>
+							<form action="" method="post" accept-charset="UTF-8" id="forma2" name="noviClan">
+								Prezime i ime: <span class="zvezdica">*</span><span id="greskaIme" class=" regClan">Prezime i ime nisu u predviđenom formatu</span>
+								<br/>
+								<input type="text" name="prezimeime" size="30" id="prezimeime"/>
+								<br/><br/>
+								E-mail: <span class="zvezdica">*</span><span id="greskaMail" class="regClan">E-mail nije u predviđenom formatu</span>
+								<br>
+								<input type="email" name="email" size="30" id="email"/>
+								<br/><br/>
+								Telefon: <span class="zvezdica">*</span><span id="greskaTel" class="regClan">Telefon nije u predviđenom formatu</span>
+								<br/>
+								<input type="tel" name="telefon" size="30" id="telefon"/>
+								<br/><br/>
+								Vrsta članarine: <span class="zvezdica">*</span><span id="greskaClan" class="regClan">Morate izabrati vrstu članarine</span>
+								<br/>
+								<select id="clanarina">
+									<option value="0">--Izaberite--</option>
+									<option value="mesecna">Mesečna</option>
+									<option value="3xned">3x nedeljno</option>
+									<option value="2xned">2x nedeljno</option>
+								</select>
+								<br/><br/>
+								Program: <span class="zvezdica">*</span><span id="greskaProgram" class="regClan">Označite jedan ili više programa</span>
+								<br/>
+								<input type="checkbox" name="trening" value="BodyVive" id="vajv"/>BodyVive&trade;
+								<br/>
+								<input type="checkbox" name="trening" value="BodyCombat" id="kombat"/>BodyCombat&trade;
+								<br/>
+								<input type="checkbox" name="trening" value="BodyAttack" id="atak"/>BodyAttack&trade;
+								<br/><br/>
+								Ukoliko imate dodatna pitanja ili sugestije, popunite polje ispod:
+								<br/>
+								<textarea name="poruka" rows="7" cols="70" id="poruka"></textarea>
+								<br/>
+								<input type="button" name="slanje" value="Pošalji" id="posalji" onclick="registracija();"/>
+								<input type="reset" name="resetovanje" value="Poništi" id="ponisti"/>
+							</form>
+							
+						</article>
+						
+						<aside id="podaci">
+						
+							<p>
+								<b>Adresa</b><br/>Bulevar kralja Aleksandra 443a, Beograd
+								<br/><br/>
+								<b>Radno vreme</b>
+								<br/>
+								Radnim danima: 19:00-21:00
+								<br/>
+								Subotom: 11:00-12:00
+								<br/><br/>
+								<b>E-mail</b>
+								<br/>
+								<a href="mailto:scrankovic@hotmail.com?Subject=Zdravo" target="">scrankovic@hotmail.com</a>
+								<br/><br/>
+								<b>Telefon</b>
+								<br/>
+								065/37-37-655
+							</p>
+							
+						</aside>
+					
+						<aside id="mapa">
+						
+							<p>
+								<a href="https://www.google.rs/maps/place/SC+RANKOVIC/@44.7839769,20.5224795,18z/data=!4m2!3m1!1s0x0000000000000000:0xba2f53ecdd28ef18"><img src="slike/mapa.jpg" alt="Mapa"></a>
+							</p>
+							
+						</aside>
+					
+					</section>
+					
+				</div>
+				
+				<div class="cistacica"></div>
+			
+				<footer>
+				
+					<div id="podnozje">
+					
+						<nav id="dole">
+						
+							<ul>
+								<li><a href="index.html">Početna</a></li>
+								<li><a href="autor.html">O nama</a></li>
+								<li><a href="raspored.html">Raspored</a></li>
+								<li><a href="galerija.html">Galerija</a></li>
+								<li><a href="kontakt.html">Kontakt</a></li>
+                                <li><a href="dokumentacija.pdf">Dokumentacija</a></li>
+							</ul>
+							
+							<div id="prava">
+								&copy;2018 Sportski centar Ranković
+							</div>
+							
+						</nav>
+						
+						<div id="linkovi">
+							<a href="https://sr-rs.facebook.com/sc.rankovic.energija.u.pokretu"><img src="slike/fb.png" alt="SC Ranković Facebook" title="Pratite nas na Fejsbuku"></a>
+							<a href="http://instagram.com/scrankovic_energijaupokretu"><img src="slike/instagram.png" alt="SC Ranković Instagram" title="Pratite nas na Instagramu"></a>
+							<a href="https://plus.google.com/107480631375884560816/about"><img src="slike/googleplus.png" alt="SC Ranković Google Plus" title="Pratite nas na Gugl Plusu"></a>
+							<a href="http://www.lesmills.com/clubs-and-facilities/"><img src="slike/lm.png" alt="LesMills-konkurencija" title="LesMills klubovi"></a>
+							<a href="xml/sitemap.xml"><img src="slike/sitemap.png" alt="Sitemap" title="Mapa sajta"></a>
+						</div>
+						
+					</div>
+					
+				</footer>
+				
+				<div class="cistacica"></div>
+				
+			</div>
+			
+		</div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/scr.js"></script>
+        <script type="text/javascript" src="js/reg.js"></script>
+		
+	</body>
+	
+</html>

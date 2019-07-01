@@ -1,0 +1,657 @@
+/* Index */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Dosis, Calibri;
+}
+
+a img{
+	border: none;
+}
+ 
+b{
+	font-weight: bold;
+}
+
+#omot{
+	min-width: 1024px;
+	height: 1000px;
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	background-color: #C3C3CF;
+}
+
+#zaglavlje{
+	width: 1000px;
+	height: 150px;
+}
+
+#logo{
+	width: 143px;
+	height: 150px;
+	float: left;
+}
+
+nav#gore{
+	width: 666px;
+	height: 50px;
+	font-size: 16px;
+	color: #000;
+	float: left;
+	position: relative;
+	top: 65px;
+	text-transform: uppercase;
+}
+
+nav#gore ul{
+	display: block; 
+	list-style-type: none; 
+}
+
+nav#gore li{
+	display: inline-block; 
+	padding-left: 15px;
+
+	position: relative;
+}
+
+nav#gore ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 5px;
+}
+
+nav#gore ul li ul li{
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+nav#gore ul li a:hover{
+	color: #FFF; 
+	border-bottom: 2px solid #FFF; 
+	border-radius: 30%;
+}
+
+nav#gore ul li ul{
+	display: block;
+	position: absolute;
+	z-index: 10;
+	background-color: #C3C3CF;
+	top: 28px;
+    left: 0px;
+    margin-left: -19px;
+    padding-left: 18px;
+}
+nav#gore ul li ul li{
+	margin-left: -15px;
+	width: 110px;
+	background-color:#C3C3CF;
+}
+nav#gore ul li ul li a{
+	width: 100px;
+}
+
+#pretraga{
+	width: 177px;
+	height: 50px;
+	float: right;
+	position: relative;
+	top: 65px;
+}
+
+.cistacica{
+	clear: both;
+}
+
+#okvir{
+	width: 1024px;
+	height: 450px;
+}
+
+#slikePrograma{
+	width: 100%;
+	height: 450px;
+	display: block;
+	background-color: #FFF;
+	float: left;
+}
+
+#slikePrograma img{
+	padding-left: 3px;
+}
+
+#slikePrograma img:hover{
+	border-left: 2px solid #FFC266;
+	padding-left: 1px;
+}
+
+#omotUvod{
+	width: 100%;
+	height: 400px;
+	background-color: #C3C3CF;
+}
+
+#uvod{
+	width: 1024px;
+	height: 350px;
+}
+
+#sadrzaj{
+	width: 750px;
+	height: 350px;
+	text-align: justify;
+	float: left;
+	padding-top: 25px;
+}
+
+article#sadrzaj h1{
+	text-shadow: 1px 1px #FFF;
+	font-size: 40px;
+}
+
+article#sadrzaj p{
+	font-size: 14px;
+	text-indent: 1px;
+	column-count: 2;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	-ms-column-count: 2;
+	
+	column-gap: 20px;
+	-webkit-column-gap: 20px;
+	-moz-column-gap: 20px;
+	-ms-column-gap: 20px;
+	
+	column-rule: 1px outset #837E7C;
+	-webkit-column-rule: 1px outset #837E7C;
+	-moz-column-rule: 1px outset #837E7C;
+	-ms-column-rule: 1px outset #837E7C;
+}
+
+article#sadrzaj p:first-letter{
+	font-size: 16px;
+}
+
+#promocije{
+	position: relative;
+	top: 11px;
+	left: 266px;
+	border: 2px dotted #FF6A45;
+	border-radius: 20%;
+	width: 199px;
+	padding: 8px;
+}
+
+#promocije h2{
+	color: #FF6A45;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+}
+
+#forme{
+	width: 250px;
+	height: 350px;
+	float: right;
+	text-align: justify;
+	font-size: 14px;
+}
+
+#forma1{
+	border-radius: 10px 10px 10px 10px;
+	position: relative;
+	top: 95px;
+	box-shadow: 1px 1px #FFF;
+}
+
+.legenda{
+	font-weight: bold;
+	text-shadow: 1px 1px #ffffff;
+	text-transform: uppercase;
+}
+
+#korisnik{
+	margin-left: 14px;
+}
+
+#lozinka{
+	margin-left: 16px;
+}
+
+#logovanje{
+	width: 55px;
+	margin-left: 90px;
+	margin-bottom: 10px;
+}
+
+#resetovanje{
+	width: 44px;
+}
+
+input, select, textarea, button{
+	border: 2px solid #C3C3CF;
+}
+
+input:hover{
+	border: 2px solid #7E9FDF;
+}
+
+input[type='radio']{
+	cursor: pointer;
+}
+
+input[type='submit']{
+	cursor: pointer;
+}
+
+input[type='reset']{
+	cursor: pointer;
+}
+
+#anketa{
+	position: relative;
+	top: 115px;
+}
+
+#glasaj{
+	margin-top:3px;
+	width: 40px;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	background-color: #FF6A45;
+}
+
+#podnozje{
+	width: 1024px;
+	height: 100px;
+	color: #000;
+}
+
+nav#dole{
+	font-size: 18px;
+	width: 500px;
+	height: 100px;
+	float: left;
+	text-align: justify;
+}
+
+nav#dole ul{
+	display: inline; 
+	list-style-type: none; 
+	position: relative; 
+	top: 10px
+}
+
+nav#dole ul li{
+	display: inline; 
+	padding-left: 5px; 
+	padding-right: 7px;
+	border-right: 2px solid #C3C3CF;
+	border-radius: 3%;
+}
+
+nav#dole ul li:nth-last-child(1){
+	border: none;	
+}
+
+nav#dole ul li a{
+	text-decoration: none; 
+	color: #000;
+}
+	
+nav#dole ul li a:hover{
+	color: #FFF;
+}
+
+#prava{
+	position: relative;
+	top: 44px;
+	left: 4px;
+	text-transform: capitalize;
+}
+
+#linkovi{
+	width: 500px;
+	height: 80px;
+	float: right;
+	padding-top: 15px;
+}
+
+/* BodyVive */
+
+#program{
+	width: 570px;
+	height: 400px;
+	display: block;
+	background-color: #EEE;
+	margin-top: 20px;
+}
+
+#pozadina{
+	width: 100%;
+	height: 400px;
+	background-color: #EEE;
+}
+
+#programTekst{
+	text-align: left;
+}
+
+#programTekst h3{
+	text-align: center;
+	margin-top: 3px;
+}
+
+#programTekst p{
+	position: relative;
+	left: -60px;
+	width: 700px;
+}
+
+#vive{
+	list-style-image: url(http://scrankovic.byethost3.com/slike/bodyviveUL.png);
+}
+
+/* BodyCombat */
+
+#combat{
+	list-style-image: url(http://scrankovic.byethost3.com/slike/bodycombatUL.png);
+}
+
+/* BodyAttack */
+
+#attack{
+	list-style-image: url(http://scrankovic.byethost3.com/slike/bodyattackUL.png);
+}
+
+/* Autor */ 
+
+#sredina{
+	width: 923px;
+	height: 700px;
+	border-style: solid;
+	border-width: 33px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	border-image: url(https://www.w3schools.com/cssref/border.png) 26 fill repeat;
+	-webkit-border-image: url(https://www.w3schools.com/cssref/border.png) 26 repeat;
+	-moz-border-image: url(https://www.w3schools.com/cssref/border.png) 26 repeat;
+}
+
+#autor{
+	position: relative;
+	top: 160px;
+	left: 50px;
+	z-index: 1;
+	color: #000;
+}
+
+#autor h2{
+	font-size: 25px;
+	color: #000;
+}
+
+#slika{
+	display: block;
+	float:left;
+	position: relative;
+	top: 160px;
+	left: 50px;
+	box-shadow: 5px 5px 15px #C3C3CF;
+}
+
+/* Raspored */
+
+#omotRaspored{
+	min-width: 1024px;
+	height:950px;
+}
+
+#tabela{
+	min-width: 1024px;
+	height: 700px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 70px;
+	background-color: #EEE;
+}
+
+table{
+	height: 600px;
+}
+
+thead{
+	text-transform: uppercase; 
+	font-weight: bold; 
+	text-shadow: 1px 1px #C3C3CF;
+}
+
+tbody{
+	font-weight: bold; 
+	text-shadow: 1px 1px #C3C3CF;
+}
+
+table{
+	border:none;
+}
+
+th,td{
+	border-color: #000;
+	border-radius: 3px 3px 3px 3px; 
+	box-shadow: 1px 1px #000; 
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+tfoot{
+	height: 25px;
+}
+
+#preuzimanje{
+	width: 200px;
+}
+
+button:hover{
+	color: #FF6A45;
+	cursor: pointer;
+}
+
+th:nth-last-child(n+1){
+	background-color: #9966FF;
+	color: #FFF;
+}
+
+tbody tr:nth-child(1){
+	background-color: #EEE;
+	color: #000;
+}
+
+tr:nth-child(2){
+	background-color: #CB91E8;
+	color: #000;
+}
+
+tr:nth-child(3){
+	background-color: #EEE;
+	color: #000;
+}
+
+tr:nth-child(1){
+	background-color: #CB91E8;
+}
+
+/* Galerija */
+
+#omot2{
+	width: 100%;
+	height: 750px;
+}
+
+.galerija{
+	width: 100%;
+	height: 300px;
+	display: block;
+	margin-top: 20px;
+	padding-top: 55px;
+	background-color: #EEE;
+}
+
+.galerija img{
+	border: 1px solid #C3C3CF;
+	box-shadow: 5px 5px 15px #C3C3CF;
+}
+
+.galerija img:hover{
+	border: 1px solid #FFC266;
+}
+
+.galerija h2{
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px #C3C3CF;
+	text-transform: capitalize;
+}
+
+/* Kontakt */
+
+select:hover{
+	border: 2px solid #7E9FDF;
+	cursor: pointer;
+}
+
+input[type='checkbox']{
+	cursor: pointer;
+}
+
+textarea:hover{
+	border: 2px solid #7E9FDF;
+}
+
+#kontakt{
+	width: 1000px;
+	height: 750px;
+}
+
+#clan{
+	width: 650px;
+	height: 693px;
+	background-color: #FFF;
+	float: left;
+	margin-top: 25px;
+	text-align: justify;
+	font-weight: 300;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 15px #C3C3CF;
+	border: 1px solid #C3C3CF;
+}
+
+.kontaktZaglavlje{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+
+#forma2{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.zvezdica{
+	color: #FF6A45
+}
+
+#posalji{
+	margin-top: 3px;
+	margin-left: 3px;
+}
+
+#podaci{
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	float: right;
+	margin-top: 25px;
+	font-weight: 300;
+	border: 1px solid #C3C3CF;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 15px #C3C3CF;
+}
+
+#podaci p{
+	font-size: 18px;
+	text-align: left;
+	padding: 15px 5px 0px 10px;
+}
+
+#podaci a{
+	color: #FF6A45
+}
+
+#mapa{
+	width: 300px;
+	height: 371px;
+	background-color: white;
+	float: right;
+	margin-top: 20px;
+	font-weight: 300;
+	box-shadow: 5px 5px 15px #C3C3CF;
+}
+
+/* Novo */
+
+#sadSmiley{
+	margin-left: 40px;
+}
+#happySmiley{
+	margin-left: 40px;
+}
+
+#searchDiv{
+	height: 0px;
+	background-color: #8787b6;
+}
+
+#searchDiv{
+	padding-left: 200px;
+	padding-top: 5px;
+}
+
+.sLeft{
+	float: left;
+	color: white;
+}
+
+#Stitle{
+	font-style: italic;
+}
+
+#Stext{
+	margin-left: 20px;
+}
+
+#Sdetaljnije{
+	margin-left: 100px;
+}
+#Sdetaljnije a{
+	text-decoration: none;
+	color:black;
+	background-color: #C3C3CF;
+	padding: 1px 10px;
+}
+
+.regClan{
+	margin-left: 30px;
+	color:#FF6A45;
+}
+
+#greskaIme,#greskaMail,#greskaTel,#greskaClan,#greskaProgram{
+	opacity: 0;
+}

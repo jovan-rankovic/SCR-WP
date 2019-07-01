@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+	
+		<title>Energija u pokretu | SC Ranković</title>
+		<link rel="shortcut icon" href="slike/scr.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/scr.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Dosis:500" rel="stylesheet">
+		<meta charset="UTF-8"/>
+		<meta name="keywords" content="SC Ranković, Sportski centar Ranković, Energija u pokretu, energija, fitnes, LesMills, BodyVive, BodyCombat, BodyAttack"/>
+		<meta name="description" content="SC Ranković, prvi licencirani LesMills centar u vašem kraju. Dođite da se rekreiramo!"/>
+		<meta name="copyright" content="SC Ranković, Ranković Jovan"/>
+		<meta name="author" content="Ranković Jovan"/>
+		
+	</head>
+	
+	<body onload="anketa();">
+		<div align="center">
+		
+			<div id="omot">
+			
+				<div id="searchDiv">
+					<div id="Stitle" class="sLeft"></div>
+					<div id="Stext" class="sLeft"></div>
+					<div id="Sdetaljnije" class="sLeft"><a href="#"></a></div>
+				</div>
+
+				<div class="cistacica"></div>
+
+				<header>
+				
+					<div id="zaglavlje">
+					
+						<a href="index.html"><img src="slike/scr.png" alt="Logo SC Ranković" id="logo"/></a>
+						
+						<nav id="gore">
+							<ul>
+								<li><a href="index.html">Početna</a></li>
+								<li><a href="autor.html">O nama</a></li>
+                                <li>
+                                	<a href="#">Programi</a>
+									<ul>
+										<li><a href="bodyvive.html">BodyVive&trade;</a></li>
+										<li><a href="bodycombat.html">BodyCombat&trade;</a></li>
+										<li><a href="bodyattack.html">BodyAttack&trade;</a></li>
+									</ul>
+                                </li>
+								<li><a href="raspored.html">Raspored</a></li>
+								<li><a href="galerija.html">Galerija</a></li>
+								<li><a href="kontakt.html">Kontakt</a></li>
+                             </ul>
+                         </nav>
+						
+						<div id="pretraga">
+						
+							<form method="get" onSubmit="return false">
+								<input type="search" name="search" id="search" placeholder="Pretraga..."/>
+							</form>
+							
+						</div>
+						
+					</div>
+					
+				</header>
+				
+				<div class="cistacica"></div>
+				
+				<div id="okvir">
+				
+					<div id="slikePrograma">
+						<a href="bodyvive.html"><img src="slike/bodyviveP.jpg" title="Saznajte više o programu BodyVive&trade;" alt="BodyVive portrait"/></a>
+						<a href="bodycombat.html"><img src="slike/bodycombatP.jpg" title="Saznajte više o programu BodyCombat&trade;" alt="BodyCombat portrait"/></a>
+						<a href="bodyattack.html"><img src="slike/bodyattackP.jpg" title="Saznajte više o programu BodyAttack&trade;" alt="BodyAttack portrait"/></a>
+					</div>
+				
+				</div>
+				
+				<div class="cistacica"></div>
+				
+					<div id="omotUvod">
+					
+						<section id="uvod">
+						
+							<article id="sadrzaj">
+							
+								<h1>Dobrodošli na zvaničnu stranicu SC Ranković</h1>
+								<br/><br/>
+								<p>
+									Sportski centar Ranković se nalazi na Bulevaru kralja Aleksandra 443a, nedaleko od najveće okretnice tramvaja (5, 6, 7, 14) i prigradskih autobusa (301-309). Sala za grupni fitnes se prostire na 200m<sup>2</sup>, sa svlačionicama opremljenim ormarićima za stvari.
+									<br/><br/>
+									Dugogodišnje iskustvo u fitnesu, raznim vrstama sportova i rada sa grupama vežbača širom Srbije pokrenulo je ideju da dobru energiju prenesemo i na ljubitelje fitnesa u kraju gde smo odrasli. Okupili smo najbolje terenere i prezentere LesMills programa sa kojima smo već imali prilike da saradjujemo i da se družimo. Biće nam zadovoljstvo da Vas pokrenemo i podelimo pozitivnu energiju sa Vama.
+									<br/><br/>
+									Sve treninge vode visoko stručni i licencirani instruktori sa visegodišnjim iskustvom u fitnes industriji!
+								</p>
+								
+								<div id="promocije">
+								
+									<h2 align="center">Akcija!</h2>
+										<p>
+											PROLEĆNA PONUDA Iskoristite <b>50%</b> popusta na sve članarine!
+										</p>
+										
+								</div>
+								
+							</article>
+							
+							<aside id="forme">
+							
+								<fieldset id="forma1">
+								
+									<legend class="legenda">Prijava</legend>
+									<br/><br/>
+									<form action="" method="post" accept-charset="UTF-8" name="prijava" id="prijava">
+											<span id="korisnik">Korisnik:<input type="text" name="korisnik" id="user"/></span>
+											<br/><br/>
+											<span id="lozinka">Lozinka:<input type="password" name="lozinka" id="pass"/></span>
+											<br/><br/>
+											<input type="button" name="logovanje" value="Uloguj se" id="logovanje"/>
+											<input type="reset" name="resetovanje" value="Poništi" id="resetovanje"/>
+									</form>
+									
+								</fieldset>
+								
+								<form id="anketa" action="" method="get" name="anketa">
+									Da li vam se sviđja sajt?
+									<br/>
+										<input type="radio" name="anketa" value="da" id="da"/>
+										<label for "Da">Da!</label><span id="happySmiley"></span>
+										<br/>
+										<input type="radio" name="anketa" value="ne" id="ne"/>
+										<label for "Ne">Ne.</label><span id="sadSmiley"></span>
+										<br/>
+										<input type="button" name="glasanje" value="Glasaj" id="glasaj" onclick="glasanjeAnketa();" />
+								</form>
+								
+							</aside>
+							
+						</section>
+						
+					</div>
+					
+					<div class="cistacica"></div>
+					
+				<footer>
+				
+					<div id="podnozje">
+					
+						<nav id="dole">
+						
+							<ul>
+								<li><a href="index.html">Početna</a></li>
+								<li><a href="autor.html">O nama</a></li>
+								<li><a href="raspored.html">Raspored</a></li>
+								<li><a href="galerija.html">Galerija</a></li>
+								<li><a href="kontakt.html">Kontakt</a></li>
+                                <li><a href="dokumentacija.pdf">Dokumentacija</a></li>
+							</ul>
+							
+							<div id="prava">
+								&copy;2018 Sportski centar Ranković
+							</div>
+							
+						</nav>
+						
+						<div id="linkovi">
+							<a href="https://sr-rs.facebook.com/sc.rankovic.energija.u.pokretu"><img src="slike/fb.png" alt="SC Ranković Facebook" title="Pratite nas na Fejsbuku"></a>
+							<a href="http://instagram.com/scrankovic_energijaupokretu"><img src="slike/instagram.png" alt="SC Ranković Instagram" title="Pratite nas na Instagramu"></a>
+							<a href="https://plus.google.com/107480631375884560816/about"><img src="slike/googleplus.png" alt="SC Ranković Google Plus" title="Pratite nas na Gugl Plusu"></a>
+							<a href="http://www.lesmills.com/clubs-and-facilities/"><img src="slike/lm.png" alt="LesMills-konkurencija" title="LesMills klubovi"></a>
+							<a href="xml/sitemap.xml"><img src="slike/sitemap.png" alt="Sitemap" title="Mapa sajta"></a>
+							<a href="xml/rss.xml"><img src="slike/rss.png" alt="RSS" title="Budite obavešteni o našim akcijama"></a>
+						</div>
+						
+					</div>
+					
+				</footer>
+				
+				<div class="cistacica"></div>
+				
+			</div>
+			
+		</div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/scr.js"></script>
+
+		
+	</body>
+	
+</html>

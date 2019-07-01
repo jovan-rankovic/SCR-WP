@@ -1,0 +1,28 @@
+[
+      {
+        "vrstaPrograma": "bodyvive.html",
+        "imgSrc": "slike/bodyviveL.jpg",
+        "imgAlt": "BodyVive Landscape",
+        "programNasov": "Upoznajte se sa BODYVIVE™ LesMills programom",
+        "tekst": "BodyVive™ je program prilagodljivog intenziteta koji kombinuje kardio trening i pokrete otpora sa ekspanderima. Inspirativni treninzi i muzika će vas sprovesti kroz 12 kardio vežbi i vežbi sa opterećenjem i tako vas zaista napuniti energijom. Čas BodyVive™ je idealan za one koji su novi u svetu grupnog fitnesa, za one koji se oporavljaju nakon povrede i za aktivne osobe koje žele podognosti kardio treninga, snagu i fleksibilnost. Kao i svi drugi LesMills programi, i BodyVive™ se obnavlja nakon svaka tri meseca, novom muzikom i koreografijama.",
+        "imgPogodnostID": "vive",
+        "pogodnost1": "Uvećava ukupan nivo kondicije i blagotvorno utiče na zdravlje",
+        "pogodnost2": "Uvećava snagu mišića i izdržljivost",
+        "pogodnost3": "Uvećava pokretljivost, fleksibilnost, stabilnost i držanje",
+        "pogodnost4": "Omogućuje gubljenje težine sagorevanjem masti",
+        "pogodnost5": "Smanjuje rizik povrede kostiju i zglobova"
+      },
+      {
+        "vrstaPrograma": "bodycombat.html",
+        "imgSrc": "slike/bodycombatL.jpg",
+        "imgAlt": "BodyCombat Landscape",
+        "programNasov": "Upoznajte se sa BODYCOMBAT™ LesMills programom",
+        "tekst": "BodyCombat™ je moćni program tokom kogeg se osećate potpuno oslobođenim. Inspirisan je borilačkim veštinama poput karatea, tekvondoa, kik boksa, tai čija. Podržan je sjajnim instruktorima i odličnom muzikom, tako da ćete udaranjem, šutiranjem i izvođenjem kata proći kroz sjajan kardio trening i izgubiti mnoštvo kalorija. Kao i svi drugi LesMills programi, i BodyCombat™ se obnavlja nakon svaka tri meseca, novom muzikom i koreografijama.",
+        "imgPogodnostID": "combat",
+        "pogodnost1": "Poboljšanje rada srca i pluća",
+        "pogodnost2": "Zatezanje i oblikovanje svih mišića",
+        "pogodnost3": "Intenzivno sagorevanje kalorija",
+        "pogodnost4": "Unapređenje koordinacije, pokretljivosti i stabilnosti",
+        "pogodnost5": "Oslobađanje stresa i uvećanje samopouzdanja"
+      }
+]
